@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinquo Digital</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script src="https://kit.fontawesome.com/ec3bdb9db9.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="." class="logo" />
+          <ul id="sidemenu">
+            <li><a href="header">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="projects">Project</a></li>
+            <li><a href="contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Sinquo Digital</p>
+          <h1>Sinquo Digital is<br /><span>Sinquo Digital</span>....</h1>
+        </div>
+      </div>
+    </div>
+
+    <!---------------About Us------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="..." />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Us</h1>
+            <p>Sinquo Digital....!</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('about')">
+                About
+              </p>
+              <p class="tab-links active-link" onclick="opentab('about')">
+                About
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="about">
+              <ul>
+                <li>about....</li>
+                <li>about....</li>
+                <li>about....</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="about">
+              <ul>
+                <li>about....</li>
+                <li>about....</li>
+                <li>about....</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------Our Services--------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design & Development</h2>
+            <p>...........</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-rectangle-ad"></i>
+            <h2>Digital Marketing</h2>
+            <p>..........</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h2>Graphic Design</h2>
+            <p>............</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------Our Projects----------------->
+    <div id="Projects">
+      <div class="container">
+        <h2 class="sub-title">Projects</h2>
+        <div class="project-list">
+          <div class="project">
+            <img
+              src="images/302210353_366673109012504_8634839234148235126_n.png"
+            />
+            <div class="layer">
+              <h3>App</h3>
+              <p>Visit</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="images/302210353_366673109012504_8634839234148235126_n.png"
+            />
+            <div class="layer">
+              <h3>App</h3>
+              <p>Visit</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="images/302210353_366673109012504_8634839234148235126_n.png"
+            />
+            <div class="layer">
+              <h3>App</h3>
+              <p>Visit</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p><i class="fa-solid fa-envelope"></i> info@sinquodigital.co.za</p>
+            <p><i class="fa-solid fa-phone"></i> 076 970 8720</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-solid fa-envelope"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="#" download class="btn btn2">Download</a>
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &#169; 2024 Ntuthuko Nene. All right Reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
