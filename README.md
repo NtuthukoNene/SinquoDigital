@@ -1,1 +1,1 @@
-# SinquoDigital bvgggjhjh
+# SinquoDigital website
